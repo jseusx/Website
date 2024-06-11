@@ -1,0 +1,12 @@
+/*$plum-web: rgba(220, 171, 223, 1);
+$wenge: rgba(97, 80, 85, 1);
+$dim-gray: rgba(111, 104, 109, 1);
+$verdigris: rgba(92, 164, 169, 1);
+$alabaster: rgba(230, 235, 224, 1);*/
+body {
+    background-color: rgb(230, 235, 224);
+}
+h1 {
+    color: rgb(97, 80, 85);
+    text-align: center;
+}
