@@ -1,12 +1,97 @@
-/*$plum-web: rgba(220, 171, 223, 1);
+/* Color Variables
+$plum-web: rgba(220, 171, 223, 1);
 $wenge: rgba(97, 80, 85, 1);
 $dim-gray: rgba(111, 104, 109, 1);
 $verdigris: rgba(92, 164, 169, 1);
-$alabaster: rgba(230, 235, 224, 1);*/
+$alabaster: rgba(230, 235, 224, 1);
+*/
+
 body {
     background-color: rgb(230, 235, 224);
 }
+
 h1 {
     color: rgb(97, 80, 85);
     text-align: center;
+}
+
+.topnav ul {
+    background-color: #333;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center the items */
+    align-items: center; /* Vertically center the items */
+    height: 47.41px;
+}
+
+.topnav li {
+    display: inline-block;
+}
+
+.topnav ul li a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    width: 100px;
+}
+
+.topnav ul li a:hover {
+    background-color: rgba(220, 171, 223, 1);
+    color: black;
+}
+
+.topnav ul li a:hover:not(.active) {
+    background-color: rgba(220, 171, 223, 1);
+}
+
+.topnav ul li a:active {
+    background-color: rgba(97, 80, 85);
+    color: white;
+}
+
+ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav ul {
+        flex-direction: column; /* Stack the items vertically */
+        height: auto; /* Adjust height */
+    }
+
+    .topnav li {
+        display: block; /* Ensure each item takes up the full width */
+    }
+
+}
+
+.coverword {
+    text-align: center;
+    font-size: 23px;
+    word-wrap: break-word;
+    margin: 0 16px;
+    margin-top: 21.440px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#coverpdf {
+    height: 90vh;
+    width: 80vw;
 }
