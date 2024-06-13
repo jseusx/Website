@@ -94,14 +94,19 @@ h1 {
 }
 
 #pdf-container {
+    overflow:auto;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 }
 
 #coverpdf {
     height: 90vh;
     width: 80vw;
+    border: none;
+    padding: 0;
+    margin: 0;
 }
 
