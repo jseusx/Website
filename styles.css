@@ -6,13 +6,26 @@ $verdigris: rgba(92, 164, 169, 1);
 $alabaster: rgba(230, 235, 224, 1);
 */
 
-body {
+html, body {
     background-color: rgb(230, 235, 224);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
     color: rgb(97, 80, 85);
     text-align: center;
+    margin:0;
+}
+
+.topnav {
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other content */
 }
 
 .topnav ul {
@@ -56,13 +69,8 @@ h1 {
     color: white;
 }
 
-ul {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-}
-
 @media screen and (max-width: 600px) {
+
     .topnav ul {
         flex-direction: column; /* Stack the items vertically */
         height: auto; /* Adjust height */
@@ -71,6 +79,7 @@ ul {
     .topnav li {
         display: block; /* Ensure each item takes up the full width */
     }
+
 
 }
 
