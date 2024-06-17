@@ -14,7 +14,7 @@ html, body {
     width: 100%;
 }
 
-h1 {
+h1,h2 {
     color: rgb(97, 80, 85);
     text-align: center;
     margin:0;
@@ -93,7 +93,7 @@ h1 {
     padding-right: 20px;
 }
 
-#pdf-container {
+.pdf-container {
     overflow:auto;
     display: flex;
     justify-content: center;
@@ -102,7 +102,7 @@ h1 {
     margin: 0;
 }
 
-#coverpdf {
+.coverpdf {
     height: 90vh;
     width: 60vw;
     border: none;
@@ -110,3 +110,16 @@ h1 {
     margin: 0;
 }
 
+#resumepdf {
+    height: 120vh;
+    width: 70vw;
+    border: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.pastH2 {
+    margin-top: 21.440px;
+}
