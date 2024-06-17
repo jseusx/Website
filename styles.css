@@ -116,10 +116,16 @@ h1,h2 {
     border: none;
     padding: 0;
     margin: 0;
-    align-items: center;
-    justify-content: center;
 }
 
 .pastH2 {
     margin-top: 21.440px;
+}
+
+#csvPic {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
