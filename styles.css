@@ -101,28 +101,25 @@ h2 {
 }
 
 .pdf-container {
-    overflow:auto;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
+    padding: 0;
+    width:100%;
 }
 
 .coverpdf {
     height: 90vh;
     width: 60vw;
     border: none;
-    padding: 0;
-    margin: 0;
 }
 
 #resumepdf {
     height: 120vh;
     width: 70vw;
     border: none;
-    padding: 0;
-    margin: 0;
 }
 
 .projectPics {
