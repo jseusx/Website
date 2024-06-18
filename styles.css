@@ -146,6 +146,7 @@ h2 {
 
 
 #resumeButton {
+    border-radius: 4px;
     background-color: rgba(92, 164, 169, 1);
     border: 2px solid rgba(92, 164, 169, 1);
     color: black;
