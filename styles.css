@@ -13,11 +13,18 @@ html, body {
     height: 100%;
     width: 100%;
 }
+h1 {
+    color: rgb(97, 80, 85);
+}
 
 h1,h2 {
-    color: rgb(97, 80, 85);
     text-align: center;
     margin:0;
+}
+
+h2 {
+    margin-top: 21.440px;
+    color: rgba(97, 80, 85, 1);
 }
 
 .topnav {
@@ -118,14 +125,11 @@ h1,h2 {
     margin: 0;
 }
 
-.pastH2 {
-    margin-top: 21.440px;
-}
-
-#csvPic {
+.projectPics {
     display: block;
     max-width: 50%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 21.440px;
 }
