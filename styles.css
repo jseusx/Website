@@ -107,7 +107,9 @@ h2 {
     align-items: center;
     margin: 0;
     padding: 0;
-    width:100%;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .coverpdf {
@@ -140,4 +142,48 @@ h2 {
 
 .pdf-container + h2 {
     margin-top: 0; /* Remove top margin for subsequent headings */
+}
+
+
+#resumeButton {
+    background-color: rgba(92, 164, 169, 1);
+    border: 2px solid rgba(92, 164, 169, 1);
+    color: black;
+
+}
+
+#resumeButton:hover {
+    background-color: rgb(230, 235, 224);
+    color: white;
+
+}
+
+#resumeText {
+    color:black;
+    font-size: 50px;
+
+}
+
+#resumeText:hover {
+    color: black;
+}
+
+.button-container {
+    /*border: 3px solid black;*/
+    height: 200px;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button {
+    cursor:pointer;
+    transition-duration: 0.4s;
 }
