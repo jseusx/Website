@@ -149,24 +149,17 @@ h2 {
     background-color: rgba(92, 164, 169, 1);
     border: 2px solid rgba(92, 164, 169, 1);
     color: black;
+    font-size:50px;
 
 }
 
 #resumeButton:hover {
     background-color: rgb(230, 235, 224);
-    color: white;
-
-}
-
-#resumeText {
-    color:black;
-    font-size: 50px;
-
-}
-
-#resumeText:hover {
     color: black;
+
 }
+
+
 
 .button-container {
     /*border: 3px solid black;*/
